@@ -24,6 +24,9 @@ async function get(base, path) {
 
   const m = await get(base, '/manifest.json');
   check('manifest.json', m.status === 200 && Array.isArray(m.json.catalogs), `(${m.json && m.json.catalogs.length} catalogs)`);
+  check('catalog plan = K Latest/Trending, C Latest/Trending, J Latest',
+    JSON.stringify(m.json.catalogs.map(c => c.id)) === JSON.stringify(['ad_kdrama_latest', 'ad_kdrama_trending', 'ad_cdrama_latest', 'ad_cdrama_trending', 'ad_jdrama_latest']),
+    `(${m.json.catalogs.map(c => c.id).join(', ')})`);
 
   const first = m.json.catalogs[0];
   const c = await get(base, `/catalog/series/${first.id}.json`);

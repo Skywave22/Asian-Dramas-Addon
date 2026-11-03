@@ -5,14 +5,15 @@ Asian-drama rows to your Stremio home/board, updated automatically from TMDB.
 It provides **no streams** — when you press play, your normal stream addons
 (e.g. Torrentio) handle playback, exactly like the original.
 
-## Catalogs (12)
+## Catalogs (5, in this order)
 
-| | Latest | Trending This Week | Top Rated All Time |
-|---|---|---|---|
-| 🇰🇷 K-Drama | ✅ | ✅ | ✅ |
-| 🇯🇵 J-Drama | ✅ | ✅ | ✅ |
-| 🇨🇳 C-Drama (incl. TW/HK) | ✅ | ✅ | ✅ |
-| 🇹🇭 Thai Drama | ✅ | ✅ | ✅ |
+| Order | Catalog |
+|---|---|
+| 1 | 🇰🇷 K-Drama - Latest |
+| 2 | 🇰🇷 K-Drama - Trending This Week |
+| 3 | 🇨🇳 C-Drama - Latest (incl. TW/HK) |
+| 4 | 🇨🇳 C-Drama - Trending This Week |
+| 5 | 🇯🇵 J-Drama - Latest |
 
 - Items use **IMDb IDs** (`tt...`) so Cinemeta and your other addons recognise
   them instantly (posters, ratings, streams).
