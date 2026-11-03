@@ -5,6 +5,15 @@ Asian-drama rows to your Stremio home/board, updated automatically from TMDB.
 It provides **no streams** — when you press play, your normal stream addons
 (e.g. Torrentio) handle playback, exactly like the original.
 
+## 🔗 Access this addon (live)
+
+**👉 https://asian-dramas-addon.vercel.app**
+
+- **Configure & Install:** https://asian-dramas-addon.vercel.app/configure
+  — pick your catalogs and click *Install in Stremio*
+- **Manifest URL (paste into Stremio → Addons):**
+  `https://asian-dramas-addon.vercel.app/manifest.json`
+
 ## Catalogs (5, in this order)
 
 | Order | Catalog |
