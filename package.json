@@ -1,6 +1,6 @@
 {
   "name": "asian-drama-addon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Stremio catalog addon for Korean, Japanese, Chinese and Thai dramas (like K-Drama Crush / K-Dramas Binged). Catalog only - no streams.",
   "main": "index.js",
   "type": "commonjs",
